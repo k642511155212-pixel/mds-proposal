@@ -1,25 +1,32 @@
-# Báo cáo hoàn thiện website MDS Recruitment 2026-2027
+# Báo cáo thay đổi — MDS Recruitment 2026-2027
 
-## Đã xử lý
+## Nội dung và bố cục
 
-- Tích hợp hai ảnh Club Fair đúng ngữ cảnh, thay hoàn toàn các ô giữ chỗ và tối ưu sang WebP.
-- Chuẩn hóa dải ba ảnh MDS về ba cột bằng nhau, cùng tỷ lệ hiển thị 16:10 và không kéo giãn ảnh.
-- Làm rõ thứ bậc hero với “Hồ sơ tài trợ” là thông điệp chính; giữ “MDS Recruitment 2026-2027” rõ ràng.
-- Điều chỉnh khoảng cách dòng và khoảng cách với nhãn chương trình để dấu tiếng Việt trong tiêu đề hero không bị chạm hoặc chồng lấn trên desktop và mobile.
-- Khắc phục phần closing/contact bị vỡ trên màn hình hẹp: khóa kích thước SVG liên hệ, bổ sung cache-busting cho CSS, nới vùng hiển thị email và ép bố cục về một cột đúng breakpoint.
-- Chuẩn hóa toàn bộ nhóm nhiều ảnh: dải ba ảnh MDS dùng các cột/hàng bằng nhau; hai ảnh Club Fair dùng cùng khung, cùng tỷ lệ và `object-fit: cover` ở mọi breakpoint; bổ sung kích thước nội tại cho các ảnh để tránh nhảy bố cục khi tải.
-- Gỡ câu ghi chú nội bộ phía trên bảng quyền lợi và nội dung giải thích cách trình bày timeline.
-- Giữ nguyên các ô trống, mức tài trợ, quyền lợi, ngày chính thức và nội dung hợp tác.
-- Rút gọn các chiều cao cứng ở hero, ảnh Recruitment, ảnh About và phần kết; thống nhất tỷ lệ ảnh theo breakpoint.
-- Xác nhận logo nền trong suốt, thông tin liên hệ và địa chỉ `ngomannghi.mds.ftu2@gmail.com` chính xác.
-- Bổ sung khối liên hệ chính thức của MDS gồm địa chỉ, điện thoại, email và Facebook; tách rõ với hai đầu mối hợp tác, không bổ sung website hoặc domain.
+- Giữ nguyên cấu trúc repository, tên các file chính, Google Sans Flex, logo MDS trong suốt và toàn bộ đường dẫn ảnh đang hoạt động.
+- Đổi `CLUB FAIR` thành tiêu đề lớn; chuyển “Điểm khởi đầu của hành trình tuyển thành viên” thành phụ đề.
+- Gỡ hoàn toàn khối riêng “Giá trị dành cho Nhà tài trợ tại Club Fair”; giữ ngày, địa điểm, nội dung và hai ảnh Club Fair.
+- Chuẩn hóa tên đơn vị thành “Phân hiệu Trường Đại học Ngoại thương tại Thành phố Hồ Chí Minh” ở các vị trí liên quan.
+- Chuẩn hóa cách gọi Doanh nghiệp trong nội dung hướng đến doanh nghiệp; giữ nguyên tên chính thức các gói Nhà tài trợ Vàng/Bạc/Đồng.
+- Đổi vai trò của Lê Phương Thảo thành “Phụ trách Đối ngoại Dự án”; giữ nguyên toàn bộ thông tin của Lê Phương Thảo, Ngô Mẫn Nghi và khối liên hệ chính thức MDS.
 
-## Ảnh Club Fair
+## Bảng quyền lợi
 
-- Đã chọn `clubfair-01.webp`: khoảnh khắc sinh viên tương tác trực tiếp tại gian hàng, độ phân giải và giá trị trình bày tốt nhất.
-- Đã chọn `clubfair-02.webp`: ảnh toàn cảnh đội ngũ MDS tại gian hàng Club Fair 2023, nhận diện bối cảnh rõ.
-- Không dùng ảnh đồ họa “MDS × CLUBFAIR25” vì là ảnh ghép truyền thông độ phân giải thấp hơn, kém linh hoạt khi cắt khung so với hai ảnh đã chọn.
+- Gộp ba hàng logo thành “Logo trên standee và các ấn phẩm truyền thông”; tỷ lệ hiển thị logo Vàng/Bạc/Đồng lần lượt là `3/4`, `1/2`, `1/3` theo hồ sơ chính thức.
+- Gỡ đúng các hàng được yêu cầu: “Nội dung giới thiệu thương hiệu/sản phẩm”, “TVC tại hoạt động phù hợp”, “Hỗ trợ truyền thông cơ hội nghề nghiệp” và “Giới thiệu cơ hội nghề nghiệp”.
+- Đối chiếu các cột Nhà tài trợ Vàng/Bạc/Đồng với các trang “Quyền lợi truyền thông”, “Quyền lợi trong sự kiện” và “Quyền lợi sau sự kiện” của hồ sơ chính thức myInsight 2026, trang 13–17; chỉ đưa vào các số lượng, thời lượng và số vé được ghi rõ tại nguồn.
+- Giữ các quyền lợi Recruitment chưa bị đánh dấu xóa trong yêu cầu trước. Những ô không có quyền lợi ở cột Vàng/Bạc/Đồng được để trống; cột Hiện vật dùng “Theo thỏa thuận” vì hồ sơ nguồn không có cột quyền lợi Hiện vật riêng.
+- Sắp xếp lại theo thứ tự: độc quyền Vàng → Vàng và Bạc → quyền lợi chung; tăng phân biệt thị giác giữa Vàng/Bạc/Đồng/Hiện vật.
 
-## Tình trạng cuối
+## Đơn vị từng đồng hành
 
-- Không còn tài sản thiếu hoặc đường dẫn ảnh lỗi trong gói bàn giao.
+- Thêm mục trung lập “Đơn vị từng đồng hành cùng MDS”; không trình bày các tổ chức này như nhà tài trợ hiện tại của MDS Recruitment 2026-2027.
+- Logo được trích nguyên bản từ các trang “ĐỐI TÁC ĐỒNG HÀNH” trong hồ sơ chính thức `[FTU2 MDS] HỒ SƠ TÀI TRỢ CUỘC THI myInsight - MDS DATATHON CHALLENGE 2026`, trang 8–9.
+- Nhóm đại diện được dùng: UNITrain, Katalon, MCI Academy, CareerViet, ZaloPay và GFT Technologies Vietnam.
+- Các logo giữ màu, tỷ lệ và nền trong suốt; không tái thiết kế hoặc tự tạo logo.
+
+## QA bàn giao
+
+- `index.html` và `styles.css` được cập nhật với đúng tên file để upload đè trực tiếp.
+- `script.js`, `.nojekyll`, các asset cũ và cấu trúc thư mục hiện hữu không thay đổi.
+- Asset mới chỉ nằm trong `assets/partners/` và đều được tham chiếu bằng đường dẫn tương đối, phân biệt đúng chữ hoa/chữ thường.
+- Không thêm website/domain MDS, URL tạm, đường dẫn máy cục bộ, Google Drive hotlink hoặc dữ liệu quyền lợi không có nguồn.
