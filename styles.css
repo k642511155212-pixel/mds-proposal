@@ -1326,7 +1326,7 @@ tbody td {
 
 .official-contact-list {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(118px, 0.75fr) minmax(0, 1.25fr);
   gap: 13px 18px;
   margin-bottom: 0;
   font-style: normal;
@@ -1388,6 +1388,11 @@ tbody td {
   font-weight: 650;
   line-height: 1.45;
   overflow-wrap: break-word;
+}
+
+.official-contact-item a[href^="mailto:"] {
+  white-space: nowrap;
+  overflow-wrap: normal;
 }
 
 a.contact-value:hover,
